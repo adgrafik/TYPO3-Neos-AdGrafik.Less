@@ -1,0 +1,24 @@
+{
+    "name": "adgrafik/less",
+    "type": "typo3-flow-package",
+    "description": "LESS compiler for TYPO3 Neos.",
+    "license": ["MIT"],
+    "authors": [
+        {
+            "name": "Arno Dudek",
+            "email": "webmaster@adgrafik.at",
+            "homepage": "http://www.adgrafik.at",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/flow": "*",
+        "typo3/typoscript": "*",
+        "typo3/neos-nodetypes": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "AdGrafik\\Less": "Classes"
+        }
+    }
+}
